@@ -1,0 +1,10 @@
+create user acc
+
+ steps
+ mongoose
+ schema
+ model
+ usercreate -> password -> hash
+ jwt token -< cokkie
+
+ login -> token -> decrypt ->email
